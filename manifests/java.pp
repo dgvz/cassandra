@@ -29,7 +29,7 @@ class cassandra::java (
     $jna = $jna_package_name
   }
 
-  ensure_pacakges($java_package_name)
+  ensure_packages($java_package_name)
 
   package { $jna:
     ensure => $jna_ensure,
